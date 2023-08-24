@@ -1,0 +1,52 @@
+body {
+    background: var(--Very-dark-blue-main-background);
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+}
+
+#bloco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 350px;
+    background: var(--Dark-desaturated-blue-card-background);
+    border-radius: 10px;
+}
+
+.bloco-esq {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    padding: 50px;
+}
+
+.info {
+    display: flex;
+    margin-top: 40px;
+    gap: 50px;
+}
+
+.bloco-img {
+    width: 60%;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 0 10px 10px 0;
+    opacity: 0.4;
+    background: var(--Soft-violet-accent);
+    background-image: url(../images/image-header-mobile.jpg);
+}
+
+span {
+    color: var(--Soft-violet-accent);
+}
+
+h1, h2 {
+    color: var(--White-main-heading-stats);
+}
+
+p {
+    color: var(--Slightly-transparentw-hite-main-paragraph);
+}
